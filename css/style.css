@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0
+}
+
+nav{
+    padding: 15px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    width: 60%;
+}
+
+.type{
+    border: 1px;
+    border-color: black;
+    border-style: dashed;
+}
+
+.container{
+    width: 920px;
+    margin: 0 auto;
+    background-color: orange;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+nav{
+    background-color: lightblue;
+}
+
+.navigation{
+    background-color: orange;
+}
