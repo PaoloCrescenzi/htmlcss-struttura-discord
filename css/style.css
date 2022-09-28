@@ -78,13 +78,18 @@ section {
     
 }
 
+img{
+    width: 100%;
+}
+
 .col{
     min-height: 300px;
-    flex-grow: 1;
+    
     
 }
 .col-2{
-    flex-grow: 2;
+    width: 20%;
+    
 }
 
 .row-2{
@@ -94,11 +99,11 @@ section {
 
 .col-3{
     min-height: 300px;
-    flex-grow: 1;
+    width: 20%;
 }
 
 .col-4{
-    flex-grow: 2;
+    
 }
 
 .color{
