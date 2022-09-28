@@ -75,6 +75,7 @@ section {
 
 .row{
     display: flex;
+    
 }
 
 .col{
@@ -92,16 +93,12 @@ section {
 }
 
 .col-3{
-    background-color: blue;
     min-height: 300px;
     flex-grow: 1;
-    border: 2px dashed black;
 }
 
 .col-4{
-    background-color: pink;
     flex-grow: 2;
-    border: 2px dashed black;
 }
 
 .color{
@@ -109,9 +106,14 @@ section {
 }
 
 .foot-main{
-    background-color: green;
+    text-align: center;
     min-height: 500px;
-    border: 2px dashed black;
+    
+}
+
+.star{
+    background-image: url(file:///F:/boolean/htmlcss-struttura-discord/img/stars.svg);
+    
 }
 
 .colonne{
@@ -156,5 +158,5 @@ footer{
 }
 
 .gray{
-    background-color: lightgray;
+    background-color: rgb(224, 223, 223);
 }
