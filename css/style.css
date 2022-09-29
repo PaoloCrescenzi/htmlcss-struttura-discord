@@ -7,7 +7,10 @@
 .container{
     margin: 0 auto;
     width: 920px;
-    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -15,7 +18,9 @@ header{
 }
 
 .blue{
-    background-image: url(jumbo.png);
+    background-image: url("../img/jumbo.png");
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -25,7 +30,6 @@ header{
 }
 
 .nav-wrapper>div {
-    
     flex-basis: 20%;
 }
 
@@ -48,14 +52,16 @@ header{
 a{
     text-decoration: none;
     color: white;
+    padding: .7rem 1rem;
+    display: inline-block;
 }
 
 .links-container ul li {
     display: inline-block;
 }
 
-.login{
-    justify-items: center;
+.login-container{
+    justify-content: center;
 }
 
 section {
@@ -65,11 +71,22 @@ section {
 
 .container-small {
     width: 700px;
-    background-color: crimson;
     min-height: 300px;
-    
     text-align: center;
     color: white;
+    
+}
+
+.titolo{
+    padding: 20px 0;
+}
+
+.par{
+    padding-bottom: 20px;
+}
+
+h1{
+    font-size: 35px;
 }
 
 
@@ -102,9 +119,7 @@ img{
     width: 20%;
 }
 
-.col-4{
-    
-}
+
 
 .color{
     background-color: lightgray;
@@ -113,17 +128,30 @@ img{
 .foot-main{
     text-align: center;
     min-height: 500px;
-    
+
 }
 
+
+
 .star{
-    background-image: url(file:///F:/boolean/htmlcss-struttura-discord/img/stars.svg);
+    background-image: url("../img/stars.svg");
+    background-position: center;
+    padding: 15px 0;
     
 }
 
 .colonne{
     display: flex;
     padding: 20px 0;
+    color: white;
+}
+
+.posto{
+    color: rgb(114, 135, 195);
+}
+
+.icon{
+    color: white;
 }
 
 footer{
@@ -132,35 +160,30 @@ footer{
 
 .cl{
     width: 40%;
-    background-color: rgb(254, 158, 174);
-    border: 2px dashed black;
 }
 
 .cll{
     width: calc(100% / 4);
     min-height: 300px;
-    background-color: rgb(98, 196, 164);
-    border: 2px dashed black;
+    
+}
+
+.cll .top{
+    padding-left: 5px;
 }
 
 .foot-wrapper{
     min-height: 40px;
-    background-color: aqua;
     display: flex; 
     align-items: center;
     justify-content: space-between;
-    border: 2px dashed black;
+    
 }
 
-.bottone{
-    background-color: orange;
-    border: 2px dashed black;
+hr{
+    color: rgb(114, 135, 195);
 }
 
-.logo-foot{
-    background-color: orange;
-    border: 2px dashed black;
-}
 
 .gray{
     background-color: rgb(224, 223, 223);
